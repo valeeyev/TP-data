@@ -30,7 +30,7 @@ document.getElementById("myForm").addEventListener("submit", function (e) {
 
   // Send the form data to the server using fetch
   fetch(
-    "https://script.google.com/macros/s/AKfycbzkCwIQEj4GKHUapXN7tsQjlNXc25XjzFLWZ_1a9P-aHTtcudKpyyrRcLQmqv_sfQkA/exec",
+    "https://script.google.com/macros/s/AKfycbxKrqAM80uLFDKWFStgP96VZH3xOqCVg4V--ey6bx7kUCZ5EYbjUdcDp3xasuO_I-4d/exec",
     {
       method: "POST",
       mode: "no-cors", // Disable CORS mode to avoid the error
@@ -41,7 +41,7 @@ document.getElementById("myForm").addEventListener("submit", function (e) {
     }
   );
 
-  alert("Ma'lumotlar muvaffaqiyatli qabul qilindi!"); // No response handling due to no-cors mode
+  alert("Form submitted successfully!"); // No response handling due to no-cors mode
 });
 
 // Geolocation logic
