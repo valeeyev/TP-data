@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP forma</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <!-- Modify this form HTML and place wherever you want your form -->
+    <form action="https://formbold.com/s/9m784" method="POST" id="myForm">
+      <h1 class="title">Podstansiyalar bo'yicha ma'lumot</h1>
+      <br />
+      <br />
+      <div class="pair">
+        <label for="fider">Fider Nomi</label>
+        <input type="text" placeholder="fider nomi" name="fider" required />
+      </div>
+      <div class="pair">
+        <label for="tp_name">TP Nomi</label>
+        <input
+          type="text"
+          placeholder="Tp nomini kiriting"
+          name="tp_name"
+          required
+        />
+      </div>
+      <div class="pair">
+        <label for="quvvat">Quvvati kVA</label>
+        <input type="text" placeholder="quvvati" name="quvvat" required />
+      </div>
+      <div class="pair">
+        <label for="TT">Tok Transformatorlari</label>
+        <input type="text" placeholder="200/5 kabi" name="TT" required />
+      </div>
+      <div class="pair">
+        <label for="istemolchi">Iste'molchi turi</label>
+        <input
+          type="text"
+          placeholder="Aholi yoki boshqa"
+          name="istemolchi"
+          required
+        />
+      </div>
+      <div class="pair">
+        <label for="uzunlikL1">TP dan chiquvchi shoxcha uzunligi (m) L1:</label>
+        <input type="number" placeholder="L1" name="uzunlikL1" required />
+      </div>
+      <div class="pair">
+        <label for="uzunlikL2">TP dan chiquvchi shoxcha uzunligi (m) L2:</label>
+        <input type="number" placeholder="L2" name="uzunlikL2" required />
+      </div>
+      <div class="pair">
+        <label for="uzunlikL3">TP dan chiquvchi shoxcha uzunligi (m) L2:</label>
+        <input type="number" placeholder="L3" name="uzunlikL3" required />
+      </div>
+
+      <div class="pair">
+        <label for="activeP">Aktiv quvvat ko‘rsatkichi (kW) </label>
+        <input
+          type="number"
+          placeholder="aktiv quvvat"
+          name="activeP"
+          required
+        />
+      </div>
+      <div class="pair">
+        <label for="reactiveP">Reaktiv quvvat ko‘rsatkichi (kW) </label>
+        <input
+          type="number"
+          placeholder="Reaktiv quvvat"
+          name="reactiveP"
+          required
+        />
+      </div>
+      <div class="pair">
+        <label for="UVA">U boshlanishi (V) Faza A: </label>
+        <input type="number" placeholder="A Faza (v)" name="UVA" required />
+      </div>
+
+      <div class="pair">
+        <label for="UVB">U boshlanishi (V) Faza B: </label>
+        <input type="number" placeholder="B Faza (v)" name="UVB" required />
+      </div>
+
+      <div class="pair">
+        <label for="UVC">U boshlanishi (V) Faza C: </label>
+        <input type="number" placeholder="C Faza (v)" name="UVC" required />
+      </div>
+
+      <div class="pair">
+        <label for="IAA">I boshlanishi (A) Faza A: </label>
+        <input type="number" placeholder="A Faza (A)" name="IAA" required />
+      </div>
+
+      <div class="pair">
+        <label for="IAB">I boshlanishi (A) Faza B: </label>
+        <input type="number" placeholder="B Faza (A)" name="IAB" required />
+      </div>
+
+      <div class="pair">
+        <label for="IAC">I boshlanishi (A) Faza C: </label>
+        <input type="number" placeholder="C Faza (A)" name="IAC" required />
+      </div>
+      <div class="pair">
+        <label for="UOA">IU oxiri (V) Faza A: </label>
+        <input type="number" placeholder="A Faza (V)" name="UOA" required />
+      </div>
+
+      <div class="pair">
+        <label for="UOB">IU oxiri (V) Faza B: </label>
+        <input type="number" placeholder="B Faza (V)" name="UOB" required />
+      </div>
+
+      <div class="pair">
+        <label for="UOC">IU oxiri (V) Faza C: </label>
+        <input type="number" placeholder="C Faza (V)" name="UOC" required />
+      </div>
+      <div class="pair">
+        <label for="cosfi">Cos(fi): </label>
+        <input type="number" placeholder="Cos fi" name="cosfi" required />
+      </div>
+      <div class="pair">
+        <label for="utkazgich">O'tkazgich: </label>
+        <input
+          type="text"
+          placeholder="O'tkazgich nomi"
+          name="utkazgich"
+          required
+        />
+      </div>
+
+      <!-- Hidden fields for geolocation data -->
+      <input type="hidden" id="latitude" name="latitude" />
+      <input type="hidden" id="longitude" name="longitude" />
+
+      <div class="buttons">
+        <button class="reset" type="reset">Tozalash</button>
+        <button type="submit">Jo'natish</button>
+      </div>
+    </form>
+  </body>
+</html>
