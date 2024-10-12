@@ -30,7 +30,7 @@ document.getElementById("myForm").addEventListener("submit", function (e) {
 
   // Send the form data to the server using fetch
   fetch(
-    "https://script.google.com/macros/s/AKfycbxaMCbWSTipYhy53OBuIoFKPjQ5ce_jJGi_7-zkn49sgbcMnn9I6YmmPKe5Nulv8JYb/exec",
+    "https://script.google.com/macros/s/AKfycbzkCwIQEj4GKHUapXN7tsQjlNXc25XjzFLWZ_1a9P-aHTtcudKpyyrRcLQmqv_sfQkA/exec",
     {
       method: "POST",
       mode: "no-cors", // Disable CORS mode to avoid the error
